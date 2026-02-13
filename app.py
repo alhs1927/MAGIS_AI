@@ -686,7 +686,7 @@ with st.sidebar:
     # Footer dengan Credit dan Detail
     st.markdown(f"""
         <div class="sidebar-footer">
-            <strong>Magis AI v7.3</strong><br>
+            <strong>Magis AI v54.1</strong><br>
             {T["footer_design"]}<br>
             Kolese Kanisius Jakarta | 2026
         </div>
@@ -772,4 +772,5 @@ if st.session_state.history:
         file_name=docx_title, 
         mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         use_container_width=True
+
     )
